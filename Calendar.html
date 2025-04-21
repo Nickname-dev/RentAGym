@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calendar</title>
+<style>
+    body{
+        background-color: tan;
+    }em{
+       font-family: 'Courier New', Courier, monospace;
+       font-weight: bold; 
+    }.k{
+        border-style: outset;
+ border-radius: 30px;
+ border-color: brown;
+    }p{
+        font-size: 50px;
+        font-family: 'Courier New', Courier, monospace;
+   
+   font-weight: bolder; 
+background-color: orange;
+}*{margin: 10;padding: 0;}
+.banner{position: relative; width : 95%;margin: 0 auto;}
+ .banner img{width: 100%;outline-color: black;}
+ .heading{color: black; position: absolute;top: 100%;text-align: right;widows: 100%;outline-color: black;background-color: orange;size: }
+.para_outline{
+    color : black
+
+    
+}a{
+    font-size: 20px;
+}h{
+    font-size: 45px;
+
+}v{
+    font-size: 40px;
+}f{
+    background-color: orange;
+}j{
+    font-size: 70px;
+}
+    
+    
+    </style>
+</head>
+
+<body>
+    <div class = "container">
+        <div class = "banner">
+            <div class = "row">
+    
+    
+    <v><h1 class = "heading" class = "para_outline"><em>Welcome to the Calendar Page!</em></h1></v>
+</div>
+</div>
+</div>
+
+<br/>
+<img src="C:\Users\361254\.vscode\images\calendar.jpg" width = "1000">
+
+<hr width = "100%" color="black" size="2px">
+<br/>
+<br/>
+<br/>
+<h1 >
+<f>
+  <h>
+   <em>
+    
+    What is the Calendar Page about? Only for event organizers!</em></h> </f>
+    
+</h1>
+<br/>
+<em>
+    <a><h2 class = "k" align = "center" >Here, you can book the day which you want to rent the gym! By renting the gym, you have gained access to the facility for the whole day. The time limit allows for 
+preperation, the party, and clean up. Understanding the buttons below is vital for renting the gym. Each button has its own number- a number indicating the day of the month.
+    </h2></a>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src = "C:\Users\361254\.vscode\images\2150-equal-sign.gif">
+<a><h2 class = "k">    
+Click on the button the reserve or rent the gym for that day; if you misclick or end up wanting to 
+    remove your response, simply refresh the page.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</h2></a>
+ 
+
+
+
+
+</em>
+<br/>
+<br/>
+
+
+
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<j><f><h ><em>School's maintenance</em></h></f></j>
+<a><em><h2 class = "k">The last ten days of the month are for the school's maintenance, so only the first 20 days are open. Fees after booking can be seen in the planner page; fees are to be paid in the main office.</h2></em></a>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<j><f><h ><em>Reservations</em></h></f></j>
+<br/>
+<br/>
+<br/>
+<button onclick = "clicking()" style="background-color: brown;color: black;">1</button>
+
+<p id = "one">open</p>
+<script>
+function clicking(){
+document.getElementById("one").innerHTML = "reserved";
+}
+
+</script>
+<br />
+<br />
+<button onclick = "clicking_2()" style="background-color: brown;color: black;">2</button>
+
+<p id = "two">open</p>
+<script>
+function clicking_2(){
+document.getElementById("two").innerHTML = "reserved";
+}
+
+</script>
+<br />
+<br />
+<button onclick = "clicking_3()" style="background-color: brown;color: black;">3</button>
+
+<p id = "3">open</p>
+<script>
+function clicking_3(){
+document.getElementById("3").innerHTML = "reserved";
+}
+
+</script>
+<br />
+<br />
+<button onclick = "clicking_4()" style="background-color: brown;color: black;">4</button>
+
+<p id = "4">open</p>
+<script>
+function clicking_4(){
+document.getElementById("4").innerHTML = "reserved";
+}
+
+</script>
+<br />
+<br />
+<button onclick = "clicking_5()" style="background-color: brown;color: black;">5</button>
+
+<p id = "5">open</p>
+<script>
+function clicking_5(){
+document.getElementById("5").innerHTML = "reserved";
+}
+
+</script>
+<br />
+<br />
+<button onclick = "clicking_6()" style="background-color: brown;color: black;">6</button>
+
+<p id = "6">open</p>
+<script>
+function clicking_6(){
+document.getElementById("6").innerHTML = "reserved";
+}
+</script>
+<br />
+<br />
+<button onclick = "clicking_7()" style="background-color: brown;color: black;">7</button>
+
+<p id = "7">open</p>
+<script>
+function clicking_7(){
+document.getElementById("7").innerHTML = "reserved";
+}
+</script>
+<br />
+<br />
+<button onclick = "clicking_8()" style="background-color: brown;color: black;">8</button>
+
+<p id = "8">open</p>
+<script>
+function clicking_8(){
+document.getElementById("8").innerHTML = "reserved";
+}
+</script>
+<br />
+<br />
+<button onclick = "clicking_9()" style="background-color: brown;color: black;">9</button>
+
+<p id = "9">open</p>
+<script>
+function clicking_9(){
+document.getElementById("9").innerHTML = "reserved";
+}
+</script>
+<br />
+<br />
+<button onclick = "clicking_10()" style="background-color: brown;color: black;">10</button>
+
+<p id = "10">open</p>
+<script>
+function clicking_10(){
+document.getElementById("10").innerHTML = "reserved";
+}
+</script>
+<br />
+<br />
+<button onclick = "clicking_11()" style="background-color: brown;color: black;">11</button>
+
+<p id = "11">open</p>
+<script>
+function clicking_11(){
+document.getElementById("11").innerHTML = "reserved";
+}
+</script>
+<br />
+<br />
+<button onclick = "clicking_12()" style="background-color: brown;color: black;">12</button>
+
+<p id = "12">open</p>
+<script>
+function clicking_12(){
+document.getElementById("12").innerHTML = "reserved";
+}
+</script>
+<br />
+<br />
+<button onclick = "clicking_13()" style="background-color: brown;color: black;">13</button>
+
+<p id = "13">open</p>
+<script>
+function clicking_13(){
+document.getElementById("13").innerHTML = "reserved";
+}
+</script>
+<br />
+<br />
+<button onclick = "clicking_14()" style="background-color: brown;color: black;">14</button>
+
+<p id = "14">open</p>
+<script>
+function clicking_14(){
+document.getElementById("14").innerHTML = "reserved";
+}
+</script>
+<br />
+<br />
+<button onclick = "clicking_15()" style="background-color: brown;color: black;">15</button>
+
+<p id = "15">open</p>
+<script>
+function clicking_15(){
+document.getElementById("15").innerHTML = "reserved";
+}
+</script>
+<br />
+<br />
+<button onclick = "clicking_16()" style="background-color: brown;color: black;">16</button>
+
+<p id = "16">open</p>
+<script>
+function clicking_16(){
+document.getElementById("16").innerHTML = "reserved";
+}
+</script>
+<br />
+<br />
+<button onclick = "clicking_17()" style="background-color: brown;color: black;">17</button>
+
+<p id = "17">open</p>
+<script>
+function clicking_17(){
+document.getElementById("17").innerHTML = "reserved";
+}
+</script>
+<br />
+<br />
+<button onclick = "clicking_18()" style="background-color: brown;color: black;">18</button>
+
+<p id = "18">open</p>
+<script>
+function clicking_18(){
+document.getElementById("18").innerHTML = "reserved";
+}
+</script>
+<br />
+<br />
+<button onclick = "clicking_19()" style="background-color: brown;color: black;">19</button>
+
+<p id = "19">open</p>
+<script>
+function clicking_19(){
+document.getElementById("19").innerHTML = "reserved";
+}
+</script>
+<br />
+<br />
+<button onclick = "clicking_20()" style="background-color: brown;color: black;">20</button>
+
+<p id = "20">open</p>
+<script>
+function clicking_20(){
+document.getElementById("20").innerHTML = "reserved";
+}
+</script>
+</body>
